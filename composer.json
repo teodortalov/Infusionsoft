@@ -18,7 +18,7 @@
 	"minimum-stability" : "dev",
 	"repositories" : [{
 			"type" : "vcs",
-			"url" : "git@github.com:teodortalov/PHP_iSDK.git"
+			"url" : "https://github.com/teodortalov/PHP_iSDK.git"
 		}
 	]
 }
