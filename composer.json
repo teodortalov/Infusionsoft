@@ -7,7 +7,7 @@
 	],
 	"require" : {
 		"php" : ">=5.3.0",
-		"teodortalov/PHP_iSDK" : "dev-master",
+		"teodortalov/PHP_iSDK" : "*",
 		"illuminate/support" : "4.0.x"
 	},
 	"autoload" : {
