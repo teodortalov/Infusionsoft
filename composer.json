@@ -20,5 +20,10 @@
             "Talov\\Infusionsoft": "src/"
         }
     },
+    "repositories" : [{
+		"type" : "vcs",
+		    "url" : "git@github.com:teodortalov/Infusionsoft.git"
+	    }
+	]
     "minimum-stability": "dev"
 } 
