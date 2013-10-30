@@ -1,29 +1,24 @@
 {
-    "name": "talov/infusionsoft",
-    "description": "",
-    "authors": [
-        {
-            "name": "Teodor Talov",
-            "email": "teodor@talov.com"
-        }
-    ],
-    "require": {
-        "php": ">=5.3.0",
-        "illuminate/support": "4.0.x",
-        "teodortalov/PHP_iSDK": "*"
-    },
-    "repositories": {
-        "teodortalov/PHP_iSDK": { "url": "git@github.com:teodortalov/PHP_iSDK.git", "type": "git" }
-    },
-    "autoload": {
-        "psr-0": {
-            "Talov\\Infusionsoft": "src/"
-        }
-    },
-    "repositories" : [{
-		"type" : "vcs",
-		    "url" : "git@github.com:teodortalov/Infusionsoft.git"
-	    }
+	"name" : "talov/infusionsoft",
+	"authors" : [{
+			"name" : "Teodor Talov",
+			"email" : "teodor@talov.com"
+		}
+	],
+	"require" : {
+		"php" : ">=5.3.0",
+		"teodortalov/PHP_iSDK" : "*",
+		"illuminate/support" : "4.0.x"
+	},
+	"autoload" : {
+		"psr-0" : {
+			"Talov\\Infusionsoft" : "src/"
+		}
+	},
+	"minimum-stability" : "dev",
+	"repositories" : [{
+			"type" : "vcs",
+			"url" : "git@github.com:teodortalov/Infusionsoft.git"
+		}
 	]
-    "minimum-stability": "dev"
-} 
+}
